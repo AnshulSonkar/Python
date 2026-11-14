@@ -5365,11 +5365,13 @@
 
 # Practise Ques
 # Create a pure function that returns the cube of a number in python
-def cube(number: float | int) -> float | int:
-    return number ** 3
+# def cube(number: float | int) -> float | int:
+#     return number ** 3
 
-result = cube(3)
-print(result)  # Output: 27
+# result = cube(3)
+# print(result)  # Output: 27 
+# 
+
 
 
 
