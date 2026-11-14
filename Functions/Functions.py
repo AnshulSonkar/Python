@@ -5382,3 +5382,11 @@
 # 
 
 
+# Using filter () to select numbers greater than 50 from [10, 60, 30, 80, 90].
+# numbers = [10, 60, 30, 80, 90]
+# greater_than_50 = list(filter(lambda x: x > 50, numbers))
+
+# print(greater_than_50)
+# 
+
+
