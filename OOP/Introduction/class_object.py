@@ -43,23 +43,24 @@
 
 
 # Multiple Objects from One Class
-class Student:
+# class Student:
 
-    def display(self):
-        print("Student:", self.name)
-        print("Age:", self.age)
+#     def display(self):
+#         print("Student:", self.name)
+#         print("Age:", self.age)
 
 
-student1 = Student()
-student1.name = "Anshul"
-student1.age = 20
+# student1 = Student()
+# student1.name = "Anshul"
+# student1.age = 20
 
-student2 = Student()
-student2.name = "Rahul"
-student2.age = 21
+# student2 = Student()
+# student2.name = "Rahul"
+# student2.age = 21
 
-student1.display()
+# student1.display()
 
-print()
+# print()
 
-student2.display()
+# student2.display()
+# 
