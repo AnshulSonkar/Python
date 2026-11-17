@@ -27,3 +27,15 @@
 
 # car1.start()
 # car1.stop()
+
+
+# Understanding self
+class Student:
+
+    def display(self):
+        print("Student information")
+
+
+student1 = Student()
+
+student1.display()
