@@ -30,12 +30,13 @@
 
 
 # Understanding self
-class Student:
+# class Student:
 
-    def display(self):
-        print("Student information")
+#     def display(self):
+#         print("Student information")
 
 
-student1 = Student()
+# student1 = Student()
 
-student1.display()
+# student1.display()
+# 
