@@ -134,3 +134,21 @@
 
 # student2.display() 
 # 
+
+
+# Default Constructor
+# A constructor that doesn't require additional arguments (other than self) is commonly called a default or no-argument constructor.
+class Car:
+
+    def __init__(self):
+        self.brand = "Toyota"
+        self.color = "Black"
+
+    def display(self):
+        print("Brand:", self.brand)
+        print("Color:", self.color)
+
+
+car1 = Car()
+
+car1.display()
