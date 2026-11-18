@@ -64,3 +64,34 @@
 
 # student2.display()
 # 
+
+
+# Practical Example: Bank Account
+# class BankAccount:
+
+#     def display(self):
+#         print("Account Holder:", self.name)
+#         print("Balance:", self.balance)
+
+#     def deposit(self, amount):
+#         self.balance += amount
+#         print("Deposited:", amount)
+
+#     def withdraw(self, amount):
+#         if amount <= self.balance:
+#             self.balance -= amount
+#             print("Withdrawn:", amount)
+#         else:
+#             print("Insufficient Balance")
+
+
+# account1 = BankAccount()
+
+# account1.name = "Anshul"
+# account1.balance = 5000
+
+# account1.deposit(2000)
+# account1.withdraw(1000)
+
+# account1.display() 
+# 
