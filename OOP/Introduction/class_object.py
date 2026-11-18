@@ -115,21 +115,22 @@
 
 
 # Parameterized Constructor
-class Student:
- def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Student:
+#  def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
- def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
+#  def display(self):
+#         print("Name:", self.name)
+#         print("Age:", self.age)
 
 
-student1 = Student("Anshul", 20)
-student2 = Student("Rahul", 21)
+# student1 = Student("Anshul", 20)
+# student2 = Student("Rahul", 21)
 
-student1.display()
+# student1.display()
 
-print()
+# print()
 
-student2.display() 
+# student2.display() 
+# 
