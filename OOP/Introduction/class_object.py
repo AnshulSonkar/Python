@@ -104,10 +104,32 @@
 # def __init__(self):
 
 # The __init__() method is automatically called when you create an object.
+# class Student:
+
+#     def __init__(self):
+#         print("Constructor called!")
+
+# student1 = Student()
+# student2 = Student()
+# 
+
+
+# Parameterized Constructor
 class Student:
+ def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-    def __init__(self):
-        print("Constructor called!")
+ def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
 
-student1 = Student()
-student2 = Student()
+
+student1 = Student("Anshul", 20)
+student2 = Student("Rahul", 21)
+
+student1.display()
+
+print()
+
+student2.display() 
