@@ -95,3 +95,10 @@
 
 # account1.display() 
 # 
+
+
+# CONSTRUCTOR
+# A constructor is a special method that initializes an object when it is created.
+
+# In Python, we use:
+# def __init__(self):
