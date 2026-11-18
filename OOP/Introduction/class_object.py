@@ -102,3 +102,12 @@
 
 # In Python, we use:
 # def __init__(self):
+
+# The __init__() method is automatically called when you create an object.
+class Student:
+
+    def __init__(self):
+        print("Constructor called!")
+
+student1 = Student()
+student2 = Student()
