@@ -179,3 +179,6 @@
 
 # emp3.display()
 # 
+
+
+# Python does not support multiple independent __init__() methods in the same class.
