@@ -182,3 +182,14 @@
 
 
 # Python does not support multiple independent __init__() methods in the same class.
+# class Student:
+
+#     def __init__(self):
+#         print("First constructor")
+
+#     def __init__(self, name):
+#         print("Second constructor:", name)
+
+
+# student1 = Student("Rohit")
+# 
