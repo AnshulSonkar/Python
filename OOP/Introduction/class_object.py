@@ -207,10 +207,42 @@
 
 
 # student1 = Student()
-# student2 = Student("Anshul")
+# student2 = Student("Rohit")
 # student3 = Student("Rahul", 21)
 
 # student1.display()
 # student2.display()
 # student3.display()
+# 
+
+
+# Real-World Example: Bank Account
+# class BankAccount:
+
+#     def __init__(self, account_holder, balance):
+#         self.account_holder = account_holder
+#         self.balance = balance
+
+#     def deposit(self, amount):
+#         self.balance += amount
+#         print("Deposited:", amount)
+
+#     def withdraw(self, amount):
+#         if amount <= self.balance:
+#             self.balance -= amount
+#             print("Withdrawn:", amount)
+#         else:
+#             print("Insufficient balance!")
+
+#     def display(self):
+#         print("Account Holder:", self.account_holder)
+#         print("Balance:", self.balance)
+
+
+# account1 = BankAccount("Anshul", 5000)
+
+# account1.deposit(2000)
+# account1.withdraw(1000)
+
+# account1.display()
 # 
