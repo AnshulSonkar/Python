@@ -193,3 +193,24 @@
 
 # student1 = Student("Rohit")
 # 
+
+
+# Default parameters:
+# class Student:
+
+#     def __init__(self, name="Unknown", age=0):
+#         self.name = name
+#         self.age = age
+
+#     def display(self):
+#         print(self.name, self.age)
+
+
+# student1 = Student()
+# student2 = Student("Anshul")
+# student3 = Student("Rahul", 21)
+
+# student1.display()
+# student2.display()
+# student3.display()
+# 
