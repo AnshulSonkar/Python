@@ -362,3 +362,15 @@
 
 
 # Mutable Class Variable – Important Warning!
+# class Student:
+
+#     subjects = []
+
+# student1 = Student()
+# student2 = Student()
+
+# student1.subjects.append("Python")
+
+# print(student1.subjects)
+# print(student2.subjects)
+# 
