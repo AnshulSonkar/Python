@@ -289,18 +289,22 @@
 
 
 # Understanding Shared Data
-class Student:
+# class Student:
 
-    college = "RGPV"
+#     college = "RGPV"
 
-    def __init__(self, name):
-        self.name = name
+#     def __init__(self, name):
+#         self.name = name
 
 
-student1 = Student("Anshul")
-student2 = Student("Rahul")
+# student1 = Student("Anshul")
+# student2 = Student("Rahul")
 
-Student.college = "IIT"
+# Student.college = "IIT"
 
-print(student1.college)
-print(student2.college)
+# print(student1.college)
+# print(student2.college)
+# 
+
+
+# Instance Variable Can Override Class Variable
