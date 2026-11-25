@@ -286,3 +286,21 @@
 # print(student2.name)
 # print(student2.college) 
 # 
+
+
+# Understanding Shared Data
+class Student:
+
+    college = "RGPV"
+
+    def __init__(self, name):
+        self.name = name
+
+
+student1 = Student("Anshul")
+student2 = Student("Rahul")
+
+Student.college = "IIT"
+
+print(student1.college)
+print(student2.college)
