@@ -248,19 +248,41 @@
 # 
 
 
+# Instance Variables
 # Every object can have its own separate values.
-class Student:
+# class Student:
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
 
-student1 = Student("Anshul", 20)
-student2 = Student("Rahul", 21)
+# student1 = Student("Anshul", 20)
+# student2 = Student("Rahul", 21)
 
-print(student1.name)
-print(student1.age)
+# print(student1.name)
+# print(student1.age)
 
-print(student2.name)
-print(student2.age)
+# print(student2.name)
+# print(student2.age)
+# 
+
+
+# Class Variables
+# class Student:
+
+#     college = "RGPV"
+
+#     def __init__(self, name):
+#         self.name = name
+
+
+# student1 = Student("Anshul")
+# student2 = Student("Rahul")
+
+# print(student1.name)
+# print(student1.college)
+
+# print(student2.name)
+# print(student2.college) 
+# 
