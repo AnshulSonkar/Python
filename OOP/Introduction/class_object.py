@@ -239,7 +239,7 @@
 #         print("Balance:", self.balance)
 
 
-# account1 = BankAccount("Anshul", 5000)
+# account1 = BankAccount("Rohit", 5000)
 
 # account1.deposit(2000)
 # account1.withdraw(1000)
@@ -257,7 +257,7 @@
 #         self.age = age
 
 
-# student1 = Student("Anshul", 20)
+# student1 = Student("Rohit", 20)
 # student2 = Student("Rahul", 21)
 
 # print(student1.name)
@@ -277,7 +277,7 @@
 #         self.name = name
 
 
-# student1 = Student("Anshul")
+# student1 = Student("Rohit")
 # student2 = Student("Rahul")
 
 # print(student1.name)
@@ -297,7 +297,7 @@
 #         self.name = name
 
 
-# student1 = Student("Anshul")
+# student1 = Student("Rohit")
 # student2 = Student("Rahul")
 
 # Student.college = "IIT"
@@ -316,7 +316,7 @@
 #         self.name = name
 
 
-# student1 = Student("Anshul")
+# student1 = Student("Rohit")
 # student2 = Student("Rahul")
 
 # student1.college = "IIT"
@@ -324,4 +324,38 @@
 # print(student1.college)
 # print(student2.college)
 # print(Student.college)
+# 
+
+
+# Practical Example: Employee Management
+# class Employee:
+
+#     company = "Google"
+#     total_employees = 0
+
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
+
+#         Employee.total_employees += 1
+
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Salary:", self.salary)
+#         print("Company:", Employee.company)
+
+
+# emp1 = Employee("Rohit", 50000)
+# emp2 = Employee("Rahul", 60000)
+# emp3 = Employee("Priya", 70000)
+
+# emp1.display()
+
+# print()
+
+# emp2.display()
+
+# print()
+
+# print("Total Employees:", Employee.total_employees)
 # 
