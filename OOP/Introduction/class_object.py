@@ -308,3 +308,20 @@
 
 
 # Instance Variable Can Override Class Variable
+# class Student:
+
+#     college = "RGPV"
+
+#     def __init__(self, name):
+#         self.name = name
+
+
+# student1 = Student("Anshul")
+# student2 = Student("Rahul")
+
+# student1.college = "IIT"
+
+# print(student1.college)
+# print(student2.college)
+# print(Student.college)
+# 
