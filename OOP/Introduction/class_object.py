@@ -246,3 +246,21 @@
 
 # account1.display()
 # 
+
+
+# Every object can have its own separate values.
+class Student:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+student1 = Student("Anshul", 20)
+student2 = Student("Rahul", 21)
+
+print(student1.name)
+print(student1.age)
+
+print(student2.name)
+print(student2.age)
